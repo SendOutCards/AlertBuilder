@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AssociatedValues",
+        "repositoryURL": "https://github.com/paulofaria/AssociatedValues.git",
+        "state": {
+          "branch": null,
+          "revision": "2067609060cb3d587727edd1eae432946a6b2046",
+          "version": "6.0.0"
+        }
+      },
+      {
+        "package": "SwiftCallbacks",
+        "repositoryURL": "https://github.com/paulofaria/SwiftCallbacks.git",
+        "state": {
+          "branch": null,
+          "revision": "2862981a0c06981466679b7ac58d5dfc7e9dd0ca",
+          "version": "6.0.0"
+        }
+      },
+      {
+        "package": "Swiftstraints",
+        "repositoryURL": "https://github.com/paulofaria/Swiftstraints.git",
+        "state": {
+          "branch": null,
+          "revision": "95123cfdfd1cf6ff21957fc92f5f1038ba4fa8de",
+          "version": "6.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

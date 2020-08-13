@@ -4,17 +4,17 @@
 
 ## Installation
 
-`AlertBuilder` is available through [CocoaPods](http://cocoapods.org). To install, simply include the following lines in your podfile:
-```ruby
-use_frameworks!
-pod 'AlertBuilder'
+### Swift Package Manager
+You can build `AlertBuilder` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `AlertBuilder` as a package in your dependencies:
+
+```swift
+.package(url: "https://github.com/paulofaria/AlertBuilder.git", .upToNextMajor(from: "6.0.0")),
 ```
+
 Be sure to import the module at the top of your .swift files:
 ```swift
 import AlertBuilder
 ```
-Alternatively, clone this repo or download it as a zip and include the classes in your project.
-
 ## Author
 
 Brad Hilton, brad@skyvive.com
