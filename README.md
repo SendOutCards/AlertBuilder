@@ -8,7 +8,7 @@
 You can build `AlertBuilder` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `AlertBuilder` as a package in your dependencies:
 
 ```swift
-.package(url: "https://github.com/paulofaria/AlertBuilder.git", .upToNextMajor(from: "6.0.0")),
+.package(url: "https://github.com/SendOutCards/AlertBuilder.git", .upToNextMajor(from: "6.0.0")),
 ```
 
 Be sure to import the module at the top of your .swift files:
