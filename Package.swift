@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "AlertBuilder", targets: ["AlertBuilder"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/paulofaria/SwiftCallbacks.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/paulofaria/Swiftstraints.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/SendOutCards/SwiftCallbacks.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/SendOutCards/Swiftstraints.git", .upToNextMajor(from: "6.0.0")),
     ],
     targets: [
         .target(name: "AlertBuilder", dependencies: ["SwiftCallbacks", "Swiftstraints"]),
