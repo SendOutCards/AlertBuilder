@@ -12,7 +12,7 @@
       },
       {
         "package": "SwiftCallbacks",
-        "repositoryURL": "https://github.com/paulofaria/SwiftCallbacks.git",
+        "repositoryURL": "https://github.com/SendOutCards/SwiftCallbacks.git",
         "state": {
           "branch": null,
           "revision": "2862981a0c06981466679b7ac58d5dfc7e9dd0ca",
@@ -21,7 +21,7 @@
       },
       {
         "package": "Swiftstraints",
-        "repositoryURL": "https://github.com/paulofaria/Swiftstraints.git",
+        "repositoryURL": "https://github.com/SendOutCards/Swiftstraints.git",
         "state": {
           "branch": null,
           "revision": "95123cfdfd1cf6ff21957fc92f5f1038ba4fa8de",

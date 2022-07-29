@@ -10,21 +10,21 @@
 import UIKit
 
 private var topViewController: UIViewController? {
-    return topViewController(UIApplication.shared.delegate?.window??.rootViewController)
+    return getTopViewController(UIApplication.shared.delegate?.window??.rootViewController)
 }
 
-private func topViewController(_ viewController: UIViewController?) -> UIViewController? {
+private func getTopViewController(_ viewController: UIViewController?) -> UIViewController? {
     if let viewController = viewController as? UINavigationController {
-        return topViewController(viewController.visibleViewController)
+        return getTopViewController(viewController.visibleViewController)
     } else if let tabBarController = viewController as? UITabBarController {
         let moreNavigationController = tabBarController.moreNavigationController
         if let viewController = moreNavigationController.topViewController, viewController.view.window != nil {
-            return topViewController(viewController)
+            return getTopViewController(viewController)
         } else if let viewController = tabBarController.selectedViewController {
-            return topViewController(viewController)
+            return getTopViewController(viewController)
         }
     } else if let viewController = viewController?.presentedViewController {
-        return topViewController(viewController)
+        return getTopViewController(viewController)
     }
     return viewController
 }
